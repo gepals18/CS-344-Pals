@@ -25,7 +25,7 @@ int main(int argc, char * argv[])
         sum += dec;
       }
   
-      char binary[9] = "00000000"
+      char binary[9] = "00000000";
       convertToBinary(sum, binary, 8);
       printf("Sum in decimal: %d\nSum in binary: %s\n", sum, binary);
 
@@ -100,7 +100,7 @@ int convertToDecimal(char * strPtr, int numBits)
 int binaryCheck (char * strPtr)
 {
   int len = 0;
-  while(len != '/0')
+  while(strPtr[len] != '\0')
   {
     len++;
   }
@@ -109,7 +109,7 @@ int binaryCheck (char * strPtr)
     return 0;
   }
 
-  for(int = i; i < 8; i++
+  for (int i = 0; i < 8; i++)
   {
     if(strPtr[i] != '0' && strPtr[i] != '1')
     {
