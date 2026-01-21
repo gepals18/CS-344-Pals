@@ -1,3 +1,7 @@
+//Gretchen Pals
+//In-class help from David Bethalmey
+//Due: 1/21/2026
+
 #include <stdio.h>
 #include <stdlib.h> //for atoi
 void convertToBinary(int decimal, char *strPtr, int numBits);
