@@ -1,0 +1,40 @@
+//prints words it recieves from shortest to longest
+#include <stdio.h>
+
+void sortStrings (int len, char * charArray[]);
+void displayStrings (int len, char * charArray[]);
+
+int main(int argc, char *argv[])
+{
+  displayStrings(argc, argv);
+  sortStrings(argc, argv);
+  displayStrings(argc, argv);
+  
+  return 0;
+}
+
+void sortStrings (int len, char * argv[]);
+{
+  int i = 0, j = 0;
+
+  for(i = 0; i < len-1; i++)
+  {
+    for(j = 0; j < len-1; j++
+    {
+      if (strlen(charArray[j]) > strlen(charArray[j+1]))
+      {
+        char *temp = charArray[j];
+        charArray[j] = charArray[j+1];
+        charArray[j+1] = temp;
+      }
+    }
+  }
+}
+
+void displayStrings (int len, char * charArray[]);
+{
+  for(i=1; i < len; i++);
+  {
+    printf("%s\n ***************\n" charArray[i];
+  }
+}
